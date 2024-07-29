@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>About Me</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f0fdf0;
+      color: #2e7d32;
+    }
+
+    header {
+      background-color: #c8e6c9;
+      color: #2e7d32;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #a5d6a7;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      color: #2e7d32;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      text-align: center;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav a.active {
+      background-color: #66bb6a;
+      color: #ffffff;
+    }
+
+    section {
+      display: none;
+      padding: 2rem;
+      max-width: 800px;
+      margin: 2rem auto;
+      background-color: #e8f5e9;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    section.active {
+      display: block;
+    }
+
+    h2 {
+      border-bottom: 2px solid #66bb6a;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      background-color: #c8e6c9;
+      margin: 0.5rem 0;
+      padding: 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    ul li:hover {
+      background-color: #a5d6a7;
+    }
+
+    .about-section {
+      background-color: #c8e6c9;
+      padding: 1rem;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      transition: background-color 0.3s;
+    }
+
+    .about-section:hover {
+      background-color: #a5d6a7;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .skills-grid div {
+      background-color: #c8e6c9;
+      padding: 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    .skills-grid div:hover {
+      background-color: #a5d6a7;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>About Me</h1>
+  </header>
+
+  <nav>
+    <a
+      href="#"
+      data-section="about"
+      class="active"
+    >About Me</a>
+    <a
+      href="#"
+      data-section="portfolio"
+    >My Portfolio</a>
+    <a
+      href="#"
+      data-section="skills"
+    >My Skills</a>
+  </nav>
+
+  <main>
+    <section
+      id="about"
+      class="active"
+    >
+      <h2>Hello</h2>
+      <div class="about-section">
+        <p>
+          I am minlin huang, a passionate digital marketer who writes engaging content and communicates well. The
+          ever-changing world of digital marketing has always fascinated me, so I studied it to understand its
+          far-reaching implications on organizations and customers. Growing up in City of Penryn, I am always captivated
+          by the power of storytelling ad ability to communicate with audience at global level. My journey of digital
+          marketing started with social media where I have created my page and also post regularly to increase my
+          followers. I regularly update my videos and photos on Instagram and Facebook.
+        </p>
+      </div>
+      <div class="about-section">
+        <p>
+          My interest in the current world's integrated digital environment led me to study digital marketing. For this,
+          I have participated in online classes, workshops, and practical projects and I consider that SEO, social media
+          and content development are core areas of digital marketing. I started this journey to learn how digital
+          marketing for improving my corporate exposure. My curiosity has allowed me to work on many projects that have
+          tested my content development and audience interaction talents. Due to my knowledge, I can safely create
+          approaches that reach certain populations and yield quantifiable results.
+        </p>
+      </div>
+      <div class="about-section">
+        <p>
+          This personal webpage will showcase my skills, passion, and dedication to digital marketing. Please browse my
+          work to understand how I can help your firm flourish in digital marketing if you are an employer looking for
+          proof of my talents or history.
+        </p>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <h2>My Portfolio</h2>
+      <p>During my academic journey, I have gained a chance to make panorama of University of Exter.</p>
+      <ul>
+        <li>Panorama design</li>
+        <img src="./ppt/1.PNG">
+        <li>I also made a ppt on why University of Exter is the best university to study?</li>
+        <div class="img-box-item">
+          <img src="./ppt/2.PNG">
+        </div>
+        <div class="img-box-item">
+          <img src="./ppt/3.PNG">
+        </div>
+        <div class="img-box-item">
+          <img src="./ppt/4.PNG">
+        </div>
+        <div class="img-box-item">
+          <img src="./ppt/5.PNG">
+        </div>
+        <div class="img-box-item">
+          <img src="./ppt/6.PNG">
+        </div>
+        <div class="img-box-item">
+          <img src="./ppt/7.PNG">
+        </div>
+        <div class="img-box-item">
+          <img src="./ppt/8.PNG">
+        </div>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div>
+          <h3>Increasing engagement and likes</h3>
+          <p>I love to remain relevant on social media and I post my photos, reels and videos on social media for
+            increasing likes. Through this, I increase my follower base and also able to communicate with my peers.</p>
+        </div>
+        <div>
+          <h3>Designing</h3>
+          <p>I also learnt to design and make presentation where I use graphics and visuals for creating an engaging
+            content. Thus, I am able to design and creating engaging content which is important for digital marketing.
+          </p>
+        </div>
+        <div>
+          <h3>Content writing</h3>
+          <p>I also learnt to use generative AI tools for writing content where I wrote about “why study digital
+            marketing”. This helped me in understanding how to use AI for generating content which is relevant and
+            engaging.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelectorAll('nav a').forEach(navLink => {
+          navLink.classList.remove('active');
+        });
+        document.querySelectorAll('section').forEach(section => {
+          section.classList.remove('active');
+        });
+        this.classList.add('active');
+        document.getElementById(this.dataset.section).classList.add('active');
+      });
+    });
+  </script>
+</body>
+
+</html>
