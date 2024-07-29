@@ -116,6 +116,31 @@
       border-radius: 8px;
     }
 
+    .img2-box {
+      margin-top: 1rem;
+      line-height: 1;
+      opacity: 0;
+      transform: translateX(-100%) scale(0.8) rotate(-10deg);
+      animation: slideIn 2s forwards;
+    }
+
+    @keyframes slideIn {
+      0% {
+        opacity: 0;
+        transform: translateX(-100%) scale(0.8) rotate(-10deg);
+      }
+
+      50% {
+        opacity: 0.5;
+        transform: translateX(0) scale(1.05) rotate(5deg);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateX(0) scale(1) rotate(0);
+      }
+    }
+
   </style>
 </head>
 
@@ -226,6 +251,15 @@
             marketing”. This helped me in understanding how to use AI for generating content which is relevant and
             engaging.</p>
         </div>
+        <div>
+          <h3>Contact me</h3>
+          <p>+44 680066963</p>
+          <p>mh866@exeter.ac.uk</p>
+          <p>minlin huang</p>
+        </div>
+      </div>
+      <div class="img2-box">
+        <img src="./2.png">
       </div>
     </section>
   </main>
